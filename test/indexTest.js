@@ -21,7 +21,6 @@ describe('boardMembers', function() {
     it('returns "No, I must disagree"', function() {
       expect(polishedBoardMember.veto()).to.equal("No, I must disagree")
       expect(backSlappingGene.veto()).to.equal("No, I must disagree")
-      expect(backSlappingGene.veto).to.equal(polishedBoardMember.veto)
     })
   })
 
